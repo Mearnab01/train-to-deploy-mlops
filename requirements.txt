@@ -1,0 +1,16 @@
+pandas              # Data manipulation & preprocessing
+mlflow==2.2.2       # MLOps: experiment tracking, model versioning
+notebook            # Run Jupyter notebooks
+numpy               # Numerical computing (arrays, math ops)
+scikit-learn             # ML models (classification, regression, etc.)
+matplotlib          # Data visualization (plots, graphs)
+python-box==6.0.2   # Access dict like object.attribute (clean configs)
+PyYAML              # Read/write YAML config files
+tqdm                # Progress bars (training loops, pipelines)
+ensure==1.0.2       # Type validation / safety checks
+joblib              # Model saving/loading (faster than pickle)
+types-PyYAML        # Type hints for PyYAML (dev support)
+Flask               # Backend API for model serving
+Flask-Cors          # Enable cross-origin requests (frontend ↔ backend)
+
+-e .     # Install the current package in editable mode (for development)
