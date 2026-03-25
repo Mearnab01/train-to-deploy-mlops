@@ -18,4 +18,4 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout)
     ]
 )
-logger = logging.getLogger("mlProject-logger")
+logger = logging.getLogger("mlProjectLogger")
