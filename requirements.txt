@@ -12,5 +12,6 @@ joblib              # Model saving/loading (faster than pickle)
 types-PyYAML        # Type hints for PyYAML (dev support)
 Flask               # Backend API for model serving
 Flask-Cors          # Enable cross-origin requests (frontend ↔ backend)
+python-dotenv        # Load environment variables from .env file
 
 -e .     # Install the current package in editable mode (for development)
